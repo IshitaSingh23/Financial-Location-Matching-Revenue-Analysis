@@ -11,6 +11,11 @@ Demo: https://entity-revenue-stream.vercel.app/
 - `requirements.txt` — Python dependencies needed to run the project  
 - `*.ipynb` — Jupyter Notebook containing the full analysis pipeline  
 
+## Datasets
+
+- `raw_financials.parquet` — [download](https://centercheck-shared-data-science-technical-test.s3.amazonaws.com/raw_financials.parquet)
+- `business_locations.parquet` — [download](https://centercheck-shared-data-science-technical-test.s3.amazonaws.com/business_locations.parquet)
+
 ## How to Reproduce This Project
 
 ### 1. Download the project files
