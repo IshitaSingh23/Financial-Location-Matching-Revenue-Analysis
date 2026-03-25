@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+__pycache__/
+
+
+# macOS
+.DS_Store
+
+# Large datasets / outputs
+raw_financials.parquet
+business_locations.parquet
+adjusted_revenue_bysize.csv
+adjusted_revenue_bygeo.csv
+final_matched_table_after_second_pass.csv
+
+*.parquet
