@@ -2,6 +2,8 @@
 
 This project solves a two-part data science problem using two parquet datasets: `raw_financials.parquet` and `business_locations.parquet`. In **Part A**, it links noisy financial location records to business POI records using a two-pass entity resolution pipeline built on text cleaning, blocking, fuzzy matching, and one-to-one match enforcement. In **Part B**, it estimates total revenue from card-only revenue using segmented multiplier systems, with a size-based method as the primary approach and a geo-based method as an exploratory comparison. The workflow is designed to be transparent, practical, and easy to explain, while still handling large real-world datasets with messy names and addresses. The final output includes matched financial records, adjusted revenue estimates, summary metrics, and visual analysis.
 
+Demo: https://entity-revenue-stream.vercel.app/
+
 ## Project Files
 
 - `raw_financials.parquet` — financial records with location and revenue information  
